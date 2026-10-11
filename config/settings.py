@@ -72,6 +72,8 @@ SIMPLE_JWT = {
     'BLACKLIST_AFTER_ROTATION':True
 }
 
+CORS_ALLOWED_ORIGINS = ['http://127.0.0.1:8080']
+
 ROOT_URLCONF = 'config.urls'
 
 TEMPLATES = [
